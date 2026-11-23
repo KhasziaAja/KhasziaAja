@@ -47,6 +47,10 @@ The repositories hosted under this account form a cohesive, multi-layered infras
    Restricted spatial phase separation diagnostics, non-linear municipal friction models ($\text{Toxicity}$), and 20-year Primary Sovereign Failure Line trajectory projections.  
    *(空間摩擦、相分離・自治区化閾値 PoR、および20年第一国家崩壊線をシミュレートする審査制防衛カーネル)*
 
+6. **[DEEP-SONAR Protocol (Meta-Layer — Asymmetric Discovery & Structural Rigor Engine)](https://github.com/KhasziaAja/deep-sonar-protocol)**  
+   Asymmetric technical discovery specification that discards vanity metrics (stars, forks, social mentions) to surface isolated foundational architectures ("Silent Architects") by measuring constraint density (Structural Rigor) and cross-domain isomorphism.  
+   *(スター数やSNS言及などの人気指標を完全に排除し、制約条件の記述密度（構造的硬度）と異分野間の構造同型性のみから未発見の孤立型アーキテクチャを発掘する非対称探査プロトコル)*
+
 ---
 
 ## 📐 Conceptual Foundations / モデルの着想源・背景視点
