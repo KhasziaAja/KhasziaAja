@@ -1,37 +1,51 @@
 # 🏛️ KhasziaAja | State OS & Social Dynamics Architecture
 
 > **"Architecting deterministic social protocols. Falsifiable, physics-based, and decoupled from ideological narratives."**  
-> *(イデオロギーや感情論を排し、可処分エネルギーと生物学的制約に基づく決定論的社会OSプロトコルを設計しています。)*
+> *(イデオロギーや感情論を排し、熱力学的コストと生物学的制約に基づく決定論的社会インフラ・プロトコルを設計しています。)*
 
 ---
 
 ## 💡 About Me & Architecture Philosophy / 概要と設計思想
 
 ### 🇬🇧 English
-- **Concept & Architecture Over Formal Academia**: I am an independent system architect focusing on structural incentives, biological energy balance, and macro social OS design, rather than conventional academia or institutional research.
-- **AI as a Precision Compiler**: As a visual and topological systems thinker (and non-native English speaker), I leverage LLMs as an execution compiler to translate conceptual primitives into formal specifications, mathematical structures, and data schemas.
-- **Open Hypotheses & Falsifiability (WIP)**: The specifications hosted here are structural blueprints open for calibration. Boundary parameters, scaling constants, and transfer functions welcome empirical validation from domain specialists.
-- **Contributions Welcome**: Quantitative econometric backtesting, parameter calibration, and simulation engines (Python, Rust, Deck.gl) are deeply appreciated. Feel free to fork, debate, and submit Pull Requests.
-
----
+- **Concept & Architecture Over Formal Academia**: I am an independent system architect focusing on structural incentives, biological energy balance, cryptographic provenance, and macro social OS design, rather than conventional academia or institutional research.
+- **AI as a Precision Compiler**: As a visual and topological systems thinker (and non-native English speaker), I leverage LLMs as an execution compiler to translate conceptual primitives into formal specifications, mathematical structures, legal term sheets, and data schemas.
+- **Open Hypotheses & Falsifiability (WIP)**: The specifications hosted here are structural blueprints open for calibration. Boundary parameters, scaling constants, and transfer functions welcome empirical validation and red-teaming from domain specialists.
+- **Contributions Welcome**: Quantitative econometric backtesting, cryptographic auditing, parameter calibration, and simulation engines (Python, Rust, Deck.gl) are deeply appreciated. Feel free to fork, debate, and submit Pull Requests.
 
 ### 🇯🇵 日本語
-- **学術研究者ではなくシステム設計者（アーキテクト）**: アカデミアや高等学府の所属経験者ではなく、外部から社会構造を俯瞰して「骨組み（OSプロトコル）」を引く独立アーキテクトです。
-- **コンパイラとしてのAI活用**: 思考を視覚的・幾何学的な構造として捉えるタイプであり、英語非ネイティブであるため、脳内のアーキテクチャを厳密な技術仕様書、数式、データスキーマへと展開する「高精度コンパイラ」としてAIを活用しています。
-- **オープンな仮説検証と反証可能性（WIP）**: 公開している各リポジトリは検証途上のオープンリサーチ仕様です。数式の微調整や未検証のパラメータが含まれているため、専門家による追試と反証を歓迎します。
-- **コントリビューション歓迎**: 実データ（公的統計）を用いた計量バックテスト、数式モデルのデバッグ、シミュレーション実装（Python/Rust/3D-GIS）など、あらゆるプルリクエスト（PR）やIssueでの議論を歓迎します。
+- **学術研究者ではなくシステム設計者（アーキテクト）**: アカデミアや高等学府の所属経験者ではなく、外部から社会・経済・情報構造を俯瞰して「骨組み（OSプロトコル）」を引く独立アーキテクトです。
+- **コンパイラとしてのAI活用**: 思考を視覚的・幾何学的な構造として捉えるタイプであり、英語非ネイティブであるため、脳内のアーキテクチャを厳密な技術仕様書、数式、法務スキーム、データスキーマへと展開する「高精度コンパイラ」としてAIを活用しています。
+- **オープンな仮説検証と反証可能性（WIP）**: 公開している各リポジトリは検証途上のオープンリサーチ仕様です。数式の微調整や未検証のパラメータが含まれているため、専門家による追試・監査・反証を歓迎します。
+- **コントリビューション歓迎**: 実データ（公的統計）を用いた計量バックテスト、暗号学的監査、数式モデルのデバッグ、シミュレーション実装（Python/Rust/3D-GIS）など、あらゆるプルリクエスト（PR）やIssueでの議論を歓迎します。
 
 ---
 
-## 🏛️ Projects & Protocols / 主要プロジェクト
+## 🏛️ Projects & Protocol Stack / 主要プロジェクト群
 
-* **[SMI Framework (Layer 1 - Public Standard)](https://github.com/KhasziaAja/SMI-Framework)**  
-  Open-source thermodynamic demographic protocol. Quantitative mapping of disposable biological margins ($SMI = WCI / C_{surv}$), 4PL logistic response functions, and the 5% adult lifespan gestation lag ($t+4$ years).  
-  *(個体の生存エネルギー収支と4年遅延動態を可視化するオープンソースの基盤社会OS)*
+The repositories hosted under this account form a cohesive, multi-layered infrastructure stack designed around thermodynamic costs, zero-knowledge proofs, and mechanism design:  
+*(当アカウント配下の各リポジトリは、熱力学的コスト・ゼロ知識証明・メカニズムデザインを共通カーネルとする階層型の社会インフラスタックを構成しています。)*
 
-* **SMI Core Protocol (Layer 2 - Restricted Defense Engine)**  
-  Restricted spatial phase separation diagnostics, non-linear municipal friction models ($\text{Toxicity}$), and 20-year Primary Sovereign Failure Line trajectory projections.  
-  *(空間摩擦、相分離・自治区化閾値 PoR、および20年第一国家崩壊線をシミュレートする審査制防衛カーネル)*
+1. **[Trust-Hash Protocol (Layer 1 — Thermodynamic Provenance)](https://github.com/KhasziaAja/trust-hash-protocol)**  
+   Physical-cost-anchored data provenance and Triple-Filter Auditing (TFA) protocol. Distinguishes physical primary data (`V-Fuel`) from synthetic AI sludge via hardware-enclave signatures and recursive Merkle-DAG lineage.  
+   *(物理コストに基づくデータの真正性・来歴証明および三重浄化監査プロトコル。合成データ汚染を排し一次データの来歴を証明する最下層フィルター)*
+
+2. **[Project SOMA & The Forge (Layer 2 & 3 — Biophysical OS & Negative-IP Clearing)](https://github.com/KhasziaAja/project-soma-the-forge)**  
+   * **Project SOMA**: Autonomous physical sensing (`PAIOS`) and legal/financial architecture offsetting irreducible fixed survival costs (`LMC` toward zero).  
+   * **The Forge**: Context-stripping phase-transition engine (`SATORI`) and ZKP clearinghouse transforming corporate failure logs (Negative IP) into non-toxic learning primitives.  
+   *(生体センシングによる生存固定費の現物相殺インフラ「SOMA」と、企業の失敗ログから文脈を剥離し資産化するZKP清算エンジン「The Forge」の統合仕様)*
+
+3. **[S-ABS Protocol (Layer 4 — Dynamic Credit & Reinsurance Clearing)](https://github.com/KhasziaAja/s-abs-protocol)**  
+   Self-Attested Buffer System. Converts verified operational balance sheets and cryptographic failure/work telemetry directly into dynamic credit capacity ($\text{Cap}_i(t)$) and reinsurance feeds, bypassing traditional insurance friction.  
+   *(検証済みの貸借対照表と稼働・失敗テレメトリを直接「動的与信枠」および再保険フィードへ変換する金融・リスク清算プロトコル)*
+
+4. **[SMI Framework (Layer 5 — Macro Demographic & Thermodynamic Margin OS)](https://github.com/KhasziaAja/SMI-Framework)**  
+   Open-source thermodynamic demographic protocol. Quantitative mapping of disposable biological margins ($SMI = WCI / C_{surv}$), 4PL logistic response functions, and the 5% adult lifespan gestation lag ($t+4$ years).  
+   *(個体の生存エネルギー収支と4年遅延動態を可視化し、マクロ人口維持ラインを計測するオープンソース基盤OS)*
+
+5. **[SMI Framework Core (Restricted — Defense & Spatial Phase Kernel)](https://github.com/KhasziaAja/SMI-Framework-Core)**  
+   Restricted spatial phase separation diagnostics, non-linear municipal friction models ($\text{Toxicity}$), and 20-year Primary Sovereign Failure Line trajectory projections.  
+   *(空間摩擦、相分離・自治区化閾値 PoR、および20年第一国家崩壊線をシミュレートする審査制防衛カーネル)*
 
 ---
 
@@ -41,30 +55,61 @@
 * **Life History & Metabolic Allocation (Macro / Evolutionary View):**  
   Drawing analogies from large mammalian ($K$-strategy) reproductive constraints—how surplus energy margins above non-negotiable metabolic baselines determine whether systemic reproduction continues or triggers autonomic shutdown under resource compression.
 * **Cognitive Bandwidth & Stress Dynamics (Micro / Neuro-Behavioral View):**  
-  How the continuous pressure of irreducible fixed survival costs monopolizes prefrontal cognitive bandwidth, inducing chronic, subconscious risk-avoidance brakes on long-term commitments (pair-bonding and child-rearing).
-* **Spatial Friction & Phase Transitions (Spatial / Systemic View):**  
-  Modeling how localized demographic concentration and normative distance generate non-linear administrative and social friction ($\text{Toxicity}$), ultimately leading to irreversible spatial phase separation and boundary fragmentation.
+  How the continuous pressure of irreducible fixed survival costs monopolizes prefrontal cognitive bandwidth, inducing chronic, subconscious risk-avoidance brakes on long-term commitments.
+* **Thermodynamic Cost & Information Entropy (Data & Cryptographic View):**  
+  Countering recursive model collapse and synthetic data contamination by anchoring digital attestation to irreversible physical energy expenditure and zero-knowledge proofs.
+* **Spatial Friction & Mechanism Design (Systemic & Institutional View):**  
+  Modeling how localized concentration and normative distance generate non-linear friction ($\text{Toxicity}$), and architecting incentive-compatible contracts that remain antifragile under adversarial behavior.
 
 ### 🇯🇵 日本語
 * **生活史・生体エネルギー分配（マクロ・生態学的視点）:**  
   大型哺乳類（K戦略）におけるエネルギー獲得と生存固定費の余白、および資源枯渇・過密下における繁殖自律停止（自己防衛プログラム）の類似構造からの着想。
 * **認知帯域と生体ストレス反応（ミクロ・神経行動的視点）:**  
-  不可避な生存固定費の圧迫がもたらす前頭前野の認知リソース徴用と、長期的な投資行動（交際・婚姻・挙児）に対する無意識の防衛ブレーキ。
-* **空間摩擦と相分離動態（空間・システム工学的視点）:**  
-  局所的な過密や規範の乖離によって生じる非線形な行政・防犯負荷（Toxicity）と、境界を越えた際に起きる不可逆な空間相分離・分断モデル。
+  不可避な生存固定費の圧迫がもたらす前頭前野の認知リソース徴用と、長期的な投資行動（交際・婚姻・挙児・挑戦）に対する無意識の防衛ブレーキ。
+* **熱力学的コストと情報エントロピー（データ・暗号学的視点）:**  
+  合成データの自己増殖によるモデル崩壊を防ぐため、デジタルの真正性を「不可逆な物理エネルギー消費」と「ゼロ知識証明」にアンカリングする情報工学アプローチ。
+* **空間摩擦とメカニズムデザイン（空間・制度工学的視点）:**  
+  局所的な過密や規範の乖離によって生じる非線形な社会負荷（Toxicity）のモデル化、および人間の悪意や制度のバグを前提とした耐脆弱（アンチフラジャイル）な契約設計。
 
 ---
 
-## 🔒 Layer 2 Core Access Portal / 2階審査制アクセス申請
+## 🔒 Restricted Core & Institutional Access / 審査制コア領域へのアクセス申請
 
 ### 🇯🇵 日本語
-国家安全保障および主権保護の観点から、2階 Core Protocol の詳細仕様書および高度研究Issueは、身元（所属・アカウント等）を提示できる研究機関・政策実務家・適格共同開発者にのみ個別に開示しています。  
-閲覧・検証を希望される方は、以下の公式ゲートウェイよりアクセス申請を行ってください。  
+悪用防止およびシステム保全の観点から、各プロトコルの第2階層（`SMI-Framework-Core` および各プロトコルの `Foundry Core` キャリブレーションパラメータ）は非公開リポジトリに隔離されています。  
+検証・共同研究・機関導入を希望される方は、以下の公式ゲートウェイまたは暗号化連絡窓口より申請してください。  
 *(※ 独立体制での運用の都合上、審査および招待の発行までに一定のお時間・日数をいただく場合があります)*
 
 ### 🇬🇧 English
-To protect sovereign stability and maintain analytical rigor, complete specifications and classified research vectors for Layer 2 Core Protocols are quarantined within private repositories. Access is granted exclusively to vetted institutional analysts, academic researchers, and qualified systems contributors.  
-If you wish to request access for formal review or collaborative calibration, please submit your credentials via the official portal below.  
+To prevent adversarial exploitation and preserve analytical rigor, Tier 2 specifications (`SMI-Framework-Core` and proprietary `Foundry Core` calibration engines) are quarantined within private repositories. Access is granted exclusively to vetted institutional analysts, academic researchers, and qualified systems contributors.  
+Please submit your credentials via the official vetting portal or initiate encrypted correspondence below.  
 *(※ Please note that invitation delivery may take some time due to independent administrative queueing)*
 
-👉 **[Layer 2 Core Protocol Vetting & Access Portal](https://forms.gle/tHVG5mxRhNGaQpfeA)**  
+👉 **[Layer 2 Core Protocol Vetting & Access Portal](https://forms.gle/tHVG5mxRhNGaQpfeA)**
+
+---
+
+## 🔐 Cryptographic Contact & Maintenance Policy / 暗号化連絡窓口・運用方針
+
+* **Communication Style / 通信スタイル:** Strictly asynchronous & irregular response. *(完全非同期・不定期応答。催促や情緒的な要求には対応しません)*
+* **Contact Channel / 連絡先:** `KhasziaAja@proton.me`
+* **PGP Fingerprint:** `DA07 BEED A199 9007 EACB  A185 8841 4523 4142 CE3C`
+
+```pgp
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+xjMEawLERhYJKwYBBAHaRw8BAQdAQyBAhWSx+9U/2joh4uwJNuaXgc3G96FX
+SLRorFqXyf7NK0toYXN6aWFBamFAcHJvdG9uLm1lIDxLaGFzemlhQWphQHBy
+b3Rvbi5tZT7CwBAEExYKAIIFgmsCxEYDCwkHCRCIQUUjQULOPEUUAAAAAAAc
+ACBzYWx0QG5vdGF0aW9ucy5vcGVucGdwanMub3Jnc+PMJPqPNAC2L+0NehP2
+Xp76A1KxtbxriuRGYc9A7A4DFQoIAxYAAgIZAQKbAwIeARYhBNoHvu2hmZAH
+6suhhYhBRSNBQs48AAC8AwEAjzXxD80M7SWvBQ80OVVnm4kg0JyfFZdwxJpu
+azAaDoYBANIfgw2ZouFzaCgxn+WDM6BX8/O6Ev3G12m/zgleI04GzjgEawLE
+RhIKKwYBBAGXVQEFAQEHQLXF0rfqlBxAjjBXvY1X7nc4Yrk3LjP8mPqATYmj
+tE9IAwEKCcK+BBgWCgBwBYJrAsRGCRCIQUUjQULOPEUUAAAAAAAcACBzYWx0
+QG5vdGF0aW9ucy5vcGVucGdwanMub3Jn50yg5mwf5XH3Q4muUAUBnVh2kN7J
+kP0Mx6rAvXjqD7cCmwwWIQTaB77toZmQB+rLoYWIQUUjQULOPAAAMecBAPQ3
+Kc402vsGNeltpCs/3wUt75qunT52pnB8EXhZHBFqAQDrOPi2alh6mRvreAqQ
+1YQzhgApxbzfuyQR3XrZFVRkAg==
+=70sD
+-----END PGP PUBLIC KEY BLOCK-----
