@@ -96,7 +96,9 @@ Please submit your credentials via the official vetting portal or initiate encry
 ## 🔐 Cryptographic Contact & Maintenance Policy / 暗号化連絡窓口・運用方針
 
 * **Communication Style / 通信スタイル:** Strictly asynchronous & irregular response. *(完全非同期・不定期応答。催促や情緒的な要求には対応しません)*
-* **Contact Channel / 連絡先:** `KhasziaAja@proton.me`
+* **Onboarding & Informal Feedback / 初心者宣言・気軽な議論:** Still getting used to GitHub workflows and social etiquette. Plain-language feedback, structural critiques, or casual questions via Discussions/Issues are always welcome. *(GitHubの作法やコミュニティの流儀にはまだ不慣れですが、DiscussionsやIssuesでの平易な言葉でのフィードバック、構造へのツッコミ、気軽な質問はいつでも歓迎します)*
+* **X (Twitter) / 外部窓口・独り言:** [https://x.com/KhasziaAja001](https://x.com/KhasziaAja001) *(検索インデックス・外部議論の受け皿・DM窓口)*
+* **Contact Channel / 暗号化連絡先:** `KhasziaAja@proton.me`
 * **PGP Fingerprint:** `DA07 BEED A199 9007 EACB  A185 8841 4523 4142 CE3C`
 
 ```pgp
