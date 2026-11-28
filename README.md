@@ -26,28 +26,36 @@
 The repositories hosted under this account form a cohesive, multi-layered infrastructure stack designed around thermodynamic costs, zero-knowledge proofs, and mechanism design:  
 *(当アカウント配下の各リポジトリは、熱力学的コスト・ゼロ知識証明・メカニズムデザインを共通カーネルとする階層型の社会インフラスタックを構成しています。)*
 
-1. **[Trust-Hash Protocol (Layer 1 — Thermodynamic Provenance)](https://github.com/KhasziaAja/trust-hash-protocol)**  
-   Physical-cost-anchored data provenance and Triple-Filter Auditing (TFA) protocol. Distinguishes physical primary data (`V-Fuel`) from synthetic AI sludge via hardware-enclave signatures and recursive Merkle-DAG lineage.  
-   *(物理コストに基づくデータの真正性・来歴証明および三重浄化監査プロトコル。合成データ汚染を排し一次データの来歴を証明する最下層フィルター)*
+1. **[Physical Oracle & Edge Spec (Layer 0 — Hardware Alibi & Edge Interface)](https://github.com/KhasziaAja/physical-oracle-spec)**  
+   Open hardware-to-cryptography interface establishing verifiable Physical Alibi ($O_{\text{phys}}$) and thermodynamic grounding at the sensor edge. Binds raw analog telemetry ($W, IR, RF$, PUF, speed-of-light RTT) inside hardware enclaves to block simulated waveforms before ingestion.  
+   *(エッジ端末やセンサーの物理的実存と熱力学的接地を証明するハードウェア・暗号間インターフェース仕様。エンクレーブ直結の交差相関とPUFにより擬似波形の注入を入口で遮断する最下層アンカー)*
 
-2. **[Project SOMA & The Forge (Layer 2 & 3 — Biophysical OS & Negative-IP Clearing)](https://github.com/KhasziaAja/project-soma-the-forge)**  
+2. **[Trust-Hash Protocol (Layer 1 — Thermodynamic Provenance Core)](https://github.com/KhasziaAja/trust-hash-protocol)**  
+   Physical-cost-anchored data provenance and Triple-Filter Auditing (TFA) core protocol. Distinguishes physical primary data (`V-Fuel`) from synthetic AI sludge via hardware-enclave signatures and recursive Merkle-DAG lineage.  
+   *(物理コストに基づくデータの真正性・来歴証明および三重浄化監査（TFA）の中核プロトコル。合成データ汚染を排し一次データの家系図を証明する基幹台帳)*
+
+3. **[Validation & V-Fuel API (Layer 1.5 — High-Throughput Egress & Revocation)](https://github.com/KhasziaAja/validation-vfuel-api)**  
+   Deterministic data egress, sub-10ms $O(1)$ recursive SNARK validation, Arrow/Parquet bulk streaming, and two-stage cascading revocation interface supplying distilled `V-Fuel` corpora to foundation model training pipelines and RAG agents.  
+   *(蒸留済み高純度データ（V-Fuel）を基盤モデル学習パイプラインやRAGへ供給する出口インターフェース仕様。ミリ秒単位の高速来歴照会、バルク給水、および汚染時の連鎖リコールを規定)*
+
+4. **[Project SOMA & The Forge (Layer 2 & 3 — Biophysical OS & Negative-IP Clearing)](https://github.com/KhasziaAja/project-soma-the-forge)**  
    * **Project SOMA**: Autonomous physical sensing (`PAIOS`) and legal/financial architecture offsetting irreducible fixed survival costs (`LMC` toward zero).  
    * **The Forge**: Context-stripping phase-transition engine (`SATORI`) and ZKP clearinghouse transforming corporate failure logs (Negative IP) into non-toxic learning primitives.  
    *(生体センシングによる生存固定費の現物相殺インフラ「SOMA」と、企業の失敗ログから文脈を剥離し資産化するZKP清算エンジン「The Forge」の統合仕様)*
 
-3. **[S-ABS Protocol (Layer 4 — Dynamic Credit & Reinsurance Clearing)](https://github.com/KhasziaAja/s-abs-protocol)**  
+5. **[S-ABS Protocol (Layer 4 — Dynamic Credit & Reinsurance Clearing)](https://github.com/KhasziaAja/s-abs-protocol)**  
    Self-Attested Buffer System. Converts verified operational balance sheets and cryptographic failure/work telemetry directly into dynamic credit capacity ($\text{Cap}_i(t)$) and reinsurance feeds, bypassing traditional insurance friction.  
    *(検証済みの貸借対照表と稼働・失敗テレメトリを直接「動的与信枠」および再保険フィードへ変換する金融・リスク清算プロトコル)*
 
-4. **[SMI Framework (Layer 5 — Macro Demographic & Thermodynamic Margin OS)](https://github.com/KhasziaAja/SMI-Framework)**  
+6. **[SMI Framework (Layer 5 — Macro Demographic & Thermodynamic Margin OS)](https://github.com/KhasziaAja/SMI-Framework)**  
    Open-source thermodynamic demographic protocol. Quantitative mapping of disposable biological margins ($SMI = WCI / C_{surv}$), 4PL logistic response functions, and the 5% adult lifespan gestation lag ($t+4$ years).  
    *(個体の生存エネルギー収支と4年遅延動態を可視化し、マクロ人口維持ラインを計測するオープンソース基盤OS)*
 
-5. **[SMI Framework Core (Restricted — Defense & Spatial Phase Kernel)](https://github.com/KhasziaAja/SMI-Framework-Core)**  
+7. **[SMI Framework Core (Restricted — Defense & Spatial Phase Kernel)](https://github.com/KhasziaAja/SMI-Framework-Core)**  
    Restricted spatial phase separation diagnostics, non-linear municipal friction models ($\text{Toxicity}$), and 20-year Primary Sovereign Failure Line trajectory projections.  
    *(空間摩擦、相分離・自治区化閾値 PoR、および20年第一国家崩壊線をシミュレートする審査制防衛カーネル)*
 
-6. **[DEEP-SONAR Protocol (Meta-Layer — Asymmetric Discovery & Structural Rigor Engine)](https://github.com/KhasziaAja/deep-sonar-protocol)**  
+8. **[DEEP-SONAR Protocol (Meta-Layer — Asymmetric Discovery & Structural Rigor Engine)](https://github.com/KhasziaAja/deep-sonar-protocol)**  
    Asymmetric technical discovery specification that discards vanity metrics (stars, forks, social mentions) to surface isolated foundational architectures ("Silent Architects") by measuring constraint density (Structural Rigor) and cross-domain isomorphism.  
    *(スター数やSNS言及などの人気指標を完全に排除し、制約条件の記述密度（構造的硬度）と異分野間の構造同型性のみから未発見の孤立型アーキテクチャを発掘する非対称探査プロトコル)*
 
